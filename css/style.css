@@ -25,3 +25,7 @@ button {
 .row {
 	margin-bottom: 3px;
 }
+
+.img-responsive {
+	margin: 0 auto;
+}
