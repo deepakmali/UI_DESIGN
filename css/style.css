@@ -13,7 +13,7 @@ header {
 img {
 	/*padding: ;*/
 	/*margin-top: auto;*/
-	box-shadow: 2px 2px 2px 2px grey;
+	box-shadow: 3px 3px 3px 3px grey;
 	border-radius: 10px;
 }
 
@@ -36,7 +36,7 @@ nav.open {
 	transform: translate(0,0);
 }
 .row {
-	margin-bottom: 3px;
+	margin-bottom: 5px;
 }
 
 .img-responsive {
