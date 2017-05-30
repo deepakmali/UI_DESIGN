@@ -5,5 +5,6 @@ mainBody.addEventListener('click', function(){
 var menuButton = document.getElementById('menu');
 menuButton.addEventListener('click', function(e){
 	slideMenu.classList.toggle('open');
+	e.stopPropagation();
 });
 
