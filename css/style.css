@@ -16,3 +16,7 @@ img {
 	box-shadow: 2px 2px 2px 2px grey;
 	border-radius: 10px;
 }
+
+.row {
+	margin-bottom: 3px;
+}
