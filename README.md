@@ -1,5 +1,6 @@
 # Synopsis
 This Project is about making responsive page for phones and desktop browsers.
+Demo of the completed project can be found [here](https://youtu.be/wcfSsudnRb4)
 
 # Motivation
 This is an assignment that I have gotten to showcase my UI skills.
