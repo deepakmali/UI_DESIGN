@@ -12,30 +12,29 @@ menuButton.addEventListener('click', function(e){
 	e.stopPropagation();
 });
 
+// to display as mobile device display
+mobileView_func = function(){
+	mainBody.style.width = '350px';
+	mainBody.classList.add('container_device');
+};
+
+// to display as web app 
+desktopView_func = function(){
+	mainBody.style.width = '940px';
+	mainBody.classList.add('container_device');
+};
 
 var mobileView = document.getElementById('mobileView');
-mobileView.addEventListener('click', function(){
-	mainBody.style.width = '350px';
-	mainBody.classList.add('container_device');
-});
+mobileView.addEventListener('click', mobileView_func);
 
 var desktopView = document.getElementById('desktopView');
-desktopView.addEventListener('click', function(){
-	mainBody.style.width = '940px';
-	mainBody.classList.add('container_device');
-});
+desktopView.addEventListener('click', desktopView_func);
 
 var mobileView1 = document.getElementById('mobileView1');
-mobileView1.addEventListener('click', function(){
-	mainBody.style.width = '350px';
-	mainBody.classList.add('container_device');
-});
+mobileView1.addEventListener('click', mobileView_func);
 
 var desktopView1 = document.getElementById('desktopView1');
-desktopView1.addEventListener('click', function(){
-	mainBody.style.width = '940px';
-	mainBody.classList.add('container_device');
-});
+desktopView1.addEventListener('click', desktopView_func);
 
 var webView = document.getElementById('webView');
 webView.addEventListener('click', function(){
