@@ -22,3 +22,13 @@ var desktopView = document.getElementById('desktopView');
 desktopView.addEventListener('click', function(){
 	mainBody.style.width = '940px';
 });
+
+var mobileView1 = document.getElementById('mobileView1');
+mobileView1.addEventListener('click', function(){
+	mainBody.style.width = '350px';
+});
+
+var desktopView1 = document.getElementById('desktopView1');
+desktopView1.addEventListener('click', function(){
+	mainBody.style.width = '940px';
+});
