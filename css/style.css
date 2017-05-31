@@ -30,7 +30,7 @@ nav {
 	position: absolute;
 	transform: translate(-300px, 0);
 	transition: 0.5s ease;
-	z-index: 5;
+	z-index: 500;
 }
 
 nav.open {
@@ -41,7 +41,7 @@ nav.open {
 }
 
 .container{
-	/*width: 924px;*/
+	max-width: 950px;
 	min-width: 360px;
 }
 
@@ -51,7 +51,7 @@ nav.open {
 
 .caption {
         width:100%;
-        font-size: 2vmin;
+        font-size: 2vmax;
         color: white;
         font-weight: bold;
         bottom: .0rem;
