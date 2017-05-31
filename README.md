@@ -14,4 +14,5 @@ This is an assignment that I have gotten to showcase my UI skills.
 
 # Credits
 * Images used in project are taken from [here](https://placekitten.com)
+* Carousel implementation was inspired by this [link](https://www.tutorialspoint.com/bootstrap/bootstrap_carousel_plugin.htm)
 * README.md format is taken from [jxon](https://gist.github.com/jxson/1784669)
