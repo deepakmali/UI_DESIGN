@@ -34,6 +34,7 @@ nav {
 	position: absolute;
 	transform: translate(-300px, 0);
 	transition: 0.5s ease;
+	/*high z-index to make sure slide menu is on top*/
 	z-index: 500;
 }
 
@@ -50,6 +51,12 @@ nav.open {
 	min-width: 360px;
 }
 
+.container_device {
+	margin-top: 10%;
+	border: solid black;
+	border-width: 10px;
+}
+
 .img-responsive {
 	margin: 0 auto;
 }
@@ -57,12 +64,12 @@ nav.open {
 /*rendering text over images*/
 .caption {
         width:100%;
-        font-size: 2vmax;
+        font-size: 12px;
         color: white;
         font-weight: bold;
         bottom: .0rem;
         position: absolute;
-        background:#06467f;
+        /*background:#06467f;*/
         opacity: 0.7;
         padding: inherit;
         margin: inherit;
@@ -100,13 +107,18 @@ nav.open {
 @media screen and (max-width: 1025px ){
 #viewChanger {
 	visibility: hidden;
-}
+	}
 }
 
 .carousel-inner {
 	padding-bottom: 2px;
 }
 
+/*remove shadow effect for carousel*/
 .item > img {
 	box-shadow: none;
+}
+
+.overImage {
+	background-color: #06467f;
 }

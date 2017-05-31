@@ -16,19 +16,28 @@ menuButton.addEventListener('click', function(e){
 var mobileView = document.getElementById('mobileView');
 mobileView.addEventListener('click', function(){
 	mainBody.style.width = '350px';
+	mainBody.classList.add('container_device');
 });
 
 var desktopView = document.getElementById('desktopView');
 desktopView.addEventListener('click', function(){
 	mainBody.style.width = '940px';
+	mainBody.classList.add('container_device');
 });
 
 var mobileView1 = document.getElementById('mobileView1');
 mobileView1.addEventListener('click', function(){
 	mainBody.style.width = '350px';
+	mainBody.classList.add('container_device');
 });
 
 var desktopView1 = document.getElementById('desktopView1');
 desktopView1.addEventListener('click', function(){
 	mainBody.style.width = '940px';
+	mainBody.classList.add('container_device');
+});
+
+var webView = document.getElementById('webView');
+webView.addEventListener('click', function(){
+	location.reload();
 });
