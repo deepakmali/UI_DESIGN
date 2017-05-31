@@ -1,5 +1,6 @@
 body {
 	color: #7d97ad;
+	/*width: 924px;*/
 }
 
 hr {
@@ -39,6 +40,24 @@ nav.open {
 	margin-bottom: 3px;
 }
 
+.container{
+	/*width: 924px;*/
+	min-width: 360px;
+}
+
 .img-responsive {
 	margin: 0 auto;
 }
+
+.caption {
+        width:100%;
+        font-size: 2vmin;
+        color: white;
+        font-weight: bold;
+        bottom: .0rem;
+        position: absolute;
+        background:#06467f;
+        opacity: 0.7;
+        padding: inherit;
+        margin: inherit;
+    }
