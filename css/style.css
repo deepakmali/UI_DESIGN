@@ -54,6 +54,7 @@ nav.open {
 	margin: 0 auto;
 }
 
+/*rendering text over images*/
 .caption {
         width:100%;
         font-size: 2vmax;
@@ -89,6 +90,7 @@ nav.open {
 	font-size: 2.5vmax;
 }
 
+/*change size of text in choose device section*/
 #viewChanger > h3 {
 	font-size: 1vmax;
 	text-align: center;
